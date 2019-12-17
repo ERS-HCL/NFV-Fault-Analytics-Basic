@@ -1,17 +1,17 @@
 # NFV-Fault-Analytics-Basic
- This repository contains several use cases on Telemetry Data for predictive analytics in form of jupyter notebooks.
+ This repository contains several use cases on NFV Telemetry Data for predictive analytics in form of jupyter notebooks.
 
 ## Data
- Telemetry data contains parameters based on cpu usage, memory used etc. Three different VNF metrics with KPI(key performance indicator) metrics are given to perform NFV Fault Analytics.
-  * Netfilter vnf data is used for accuracy comparison between compaction vs orginal data.
-  * KPI (key performance indicator) data is used to showcase anomaly detection
-  * VNF (netfilter, shorewell, snort) metrics  data is used with key performance indicator( "kpi_anomally.csv") metrics For Cross Layer Fault Signs detection.
+ Telemetry data contains parameters based on cpu usage, memory used etc fetched through OpNFV Barometer. Metrics from three different VNFs constituting a network service along with service level KPIs (key performance indicator) are given to perform NFV Fault Analytics.
+  * Netfilter VNF data is used for accuracy comparison between compacted vs original data.
+  * KPI (key performance indicator) data is used to showcase anomaly detection.
+  * VNF (Netfilter, Shorewell, Snort) metrics  data is used with key performance indicator( "kpi_anomaly.csv") metrics For Cross Layer Fault Signatures detection.
   
 ## Notebook Walkthrough
   * Script is divided into four parts:
-    1. Accuracy comparison between compaction vs orignal data (Random Forest)
+    1. Accuracy comparison between compacted vs original data (Random Forest)
     2. Anomaly detection (DBScan and AutoEncoder are used)
-    3. Cross Layer Fault Signs detection
+    3. Cross Layer Fault Signatures detection
     4. Spyder Chart visualization for parameters comparison
   
 
