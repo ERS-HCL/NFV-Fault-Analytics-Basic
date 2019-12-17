@@ -2,6 +2,7 @@
  This repository contains several use cases on Telemetry Data for predictive analytics in form of jupyter notebooks.
 
 ## Data
+ Telemetry data contains parameters based on cpu usage, memory used etc. Three different VNF metrics with KPI(key performance indicator) metrics are given to perform NFV Fault Analytics.
   * Netfilter vnf data is used for accuracy comparison between compaction vs orginal data.
   * KPI (key performance indicator) data is used to showcase anomaly detection
   * VNF (netfilter, shorewell, snort) metrics  data is used with key performance indicator( "kpi_anomally.csv") metrics For Cross Layer Fault Signs detection.
