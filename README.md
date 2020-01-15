@@ -1,6 +1,5 @@
 
- This repository contains several use cases on NFV Telemetry Data for predictive analytics in form of jupyter notebooks.
- * NFV-Fault-Analytics-Basic
+## NFV-Fault-Analytics-Basic
 ## Data
  Telemetry data contains parameters based on cpu usage, memory used etc fetched through OpNFV Barometer. Metrics from three different VNFs constituting a network service along with service level KPIs (key performance indicator) are given to perform NFV Fault Analytics.
   * KPI (key performance indicator) data is used to showcase anomaly detection.
